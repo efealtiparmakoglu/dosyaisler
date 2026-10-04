@@ -1,0 +1,8 @@
+[package]
+name = "dosyaisler"
+version = "0.1.0"
+edition = "2021"
+description = "Persistent JSONL file-queue worker: claims jobs, executes them in parallel, records results and telemetry"
+license = "MIT"
+
+[dependencies]

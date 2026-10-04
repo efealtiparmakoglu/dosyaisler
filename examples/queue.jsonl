@@ -1,0 +1,4 @@
+{"id": "j-000001", "type": "email", "payload": {"to":"ada@example.com","subject":"hello"}, "status": "pending", "attempts": 0, "max_attempts": 3, "last_error": null, "queued_seq": 1}
+{"id": "j-000002", "type": "email", "payload": {"to":"bob@example.com","fail":true}, "status": "pending", "attempts": 0, "max_attempts": 3, "last_error": null, "queued_seq": 2}
+{"id": "j-000003", "type": "resize", "payload": {"src":"a.png","w":128}, "status": "pending", "attempts": 0, "max_attempts": 3, "last_error": null, "queued_seq": 3}
+{"id": "j-000004", "type": "resize", "payload": {"src":"b.png","w":256}, "status": "pending", "attempts": 3, "max_attempts": 3, "last_error": "exit 1: source not found", "queued_seq": 4}
